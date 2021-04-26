@@ -1,5 +1,5 @@
 .reviews {
-    padding-bottom: 48px;
+    padding-bottom: 58px;
     &__blocks {
         display: flex;
         margin-top: 60px;
@@ -29,5 +29,8 @@
         font-size: 16px;
         line-height: 24px;
         color: #0D0D0D;
+    }
+    &__descr_block {
+        display: none;
     }
 }

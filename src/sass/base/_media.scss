@@ -90,6 +90,64 @@
             }
         }
     }
+    .catalog {
+        &-item {
+            width: 100%;
+        }
+        .title {
+            font-size: 25px;
+        }
+        &__tabs {
+            display: block;
+            margin-top: 35px;
+        }
+        &__tab {
+            font-size: 15px;
+            margin-top: 5px;
+            width: 90%;
+        }
+    }
+    .reviews {
+        &__text {
+            margin-left: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__img {
+            width: 68px;
+            height: 68px;
+        }
+        &__title {
+            font-size: 16px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            display: none;
+        }
+        &__descr_block {
+            display: block;
+            line-height: 20px;
+            font-size: 14px;
+            margin-top: 22px;
+        }
+
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+        &__addr {
+            font-size: 17px;
+            margin-bottom: 27px;
+        }
+        &__phone {
+            font-size: 17px;
+            margin-bottom: 27px;
+        }
+    }
 }
 @media (max-width: 768px) {
     .container {
